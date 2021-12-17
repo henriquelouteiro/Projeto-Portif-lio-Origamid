@@ -1,0 +1,26 @@
+.center {
+  margin: 0 auto;
+  padding: 2rem 5%;
+}
+/*------------HEADER------------*/
+.header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 110rem;
+  font-size: 1.5rem;
+}
+.header_logo {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.header_menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header_item a {
+  color: black;
+}
