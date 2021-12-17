@@ -24,3 +24,8 @@
 .header_item a {
   color: black;
 }
+
+.header_item a:hover {
+  color: #7e8180;
+  text-decoration: underline;
+}
