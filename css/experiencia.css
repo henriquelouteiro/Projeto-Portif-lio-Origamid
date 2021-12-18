@@ -256,6 +256,9 @@
   .header_menu {
     justify-content: center;
   }
+  .formacao_faculdade_item {
+    border: rgb(94, 255, 0) solid 1px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -278,5 +281,26 @@
   }
   .informacoes_texto_p {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .area_atuacao_texto h1 {
+    font-size: 1.5rem;
+  }
+
+  .area_atuacao_texto h2 {
+    font-size: 1.5rem;
+  }
+  .formacao_h1,
+  .conteudo_h1,
+  .formacao_texto_p {
+    font-size: 1.5rem;
+  }
+  .i_t_item_grau h3,
+  .i_t_item_texto h2,
+  .informacoes_texto_p {
+    font-size: 1rem;
+    padding: 10px 0;
   }
 }
