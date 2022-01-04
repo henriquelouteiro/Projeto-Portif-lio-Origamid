@@ -1,3 +1,6 @@
+.flex {
+  display: flex;
+}
 .conteudo {
   display: grid;
   grid-template-columns: 28rem 1fr;
@@ -25,6 +28,10 @@
 .area_atuacao_texto h2 {
   font-size: 2rem;
   color: rgb(126, 129, 128);
+}
+
+.principal img {
+  border-radius: 10%;
 }
 
 .conteudo_h1 {
@@ -177,7 +184,15 @@
   text-align: center;
   grid-column: 1/-1;
 }
+.itens_contato {
+  align-items: center;
+  gap: 10px;
+  color: #eee;
+}
 
+.itens_contato:hover {
+  color: rgb(0, 255, 34);
+}
 .contato::before {
   display: inline;
   content: "";
